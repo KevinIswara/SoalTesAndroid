@@ -1,4 +1,4 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.model;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,10 +6,13 @@ import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.example.kevin.view.R;
+
 /**
  * Created by Kevin on 10/1/2017.
  */
 
+// Kelas ini merupakan kelas yang membuat garis pembatas pada recycler view.
 public class SimpleDividerItemDecoration extends RecyclerView.ItemDecoration {
     private Drawable mDivider;
 

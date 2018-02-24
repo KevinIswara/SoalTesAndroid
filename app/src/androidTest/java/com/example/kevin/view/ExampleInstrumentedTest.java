@@ -1,4 +1,4 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.view;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

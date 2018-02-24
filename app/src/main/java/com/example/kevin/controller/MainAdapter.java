@@ -1,4 +1,4 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,12 +9,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.kevin.model.Gunung;
+import com.example.kevin.view.DetailActivity;
+import com.example.kevin.view.R;
+
 import java.util.ArrayList;
 
 /**
  * Created by Kevin on 2/24/2018.
  */
 
+// Kelas ini bertanggung jawab untuk mengatur tampilan pada MainActivity.
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     private ArrayList<Gunung> mGunungData;

@@ -1,4 +1,4 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.view;
 
 import org.junit.Test;
 

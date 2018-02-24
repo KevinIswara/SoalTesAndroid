@@ -1,11 +1,9 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.view;
 
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 

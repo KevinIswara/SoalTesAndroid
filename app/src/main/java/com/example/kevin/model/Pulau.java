@@ -1,5 +1,6 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.model;
 
+import com.example.kevin.model.Gunung;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
@@ -8,7 +9,9 @@ import java.util.ArrayList;
  * Created by Kevin on 2/24/2018.
  */
 
-class Pulau {
+// Kelas ini merupakan kelas yang menyimpan atribut-atribut pulau yaitu id, nama, latitude, longitude, dan
+// daftar gunung dari sebuah pulau.
+public class Pulau {
 
     @SerializedName("id")
     private String id;
@@ -17,7 +20,7 @@ class Pulau {
     private String nama;
 
     @SerializedName("lati")
-    private String latitute;
+    private String latitude;
 
     @SerializedName("longi")
     private String longitude;
@@ -25,10 +28,10 @@ class Pulau {
     @SerializedName("gunung")
     private ArrayList<Gunung> gunung;
 
-    public Pulau(String id, String nama, String latitute, String longitude, ArrayList<Gunung> gunung) {
+    public Pulau(String id, String nama, String latitude, String longitude, ArrayList<Gunung> gunung) {
         this.id = id;
         this.nama = nama;
-        this.latitute = latitute;
+        this.latitude = latitude;
         this.longitude = longitude;
         this.gunung = gunung;
     }
@@ -50,11 +53,11 @@ class Pulau {
     }
 
     public String getLatitute() {
-        return latitute;
+        return latitude;
     }
 
     public void setLatitute(String latitute) {
-        this.latitute = latitute;
+        this.latitude = latitute;
     }
 
     public String getLongitude() {

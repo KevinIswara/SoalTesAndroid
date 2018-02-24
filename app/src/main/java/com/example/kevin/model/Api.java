@@ -1,4 +1,6 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.model;
+
+import com.example.kevin.model.Pulau;
 
 import java.util.ArrayList;
 

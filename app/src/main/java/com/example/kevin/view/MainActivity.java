@@ -1,15 +1,16 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.view;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.example.kevin.controller.MainAdapter;
+import com.example.kevin.model.Api;
+import com.example.kevin.model.Gunung;
+import com.example.kevin.model.Pulau;
+import com.example.kevin.model.SimpleDividerItemDecoration;
 
 import java.util.ArrayList;
 

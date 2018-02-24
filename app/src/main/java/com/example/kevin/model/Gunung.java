@@ -1,4 +1,4 @@
-package com.example.kevin.soaltesandroid;
+package com.example.kevin.model;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -6,7 +6,9 @@ import com.google.gson.annotations.SerializedName;
  * Created by Kevin on 2/24/2018.
  */
 
-class Gunung {
+// Kelas ini merupakan kelas yang menyimpan atribut-atribut gunung yaitu nama, foto, tinggi, dan
+// tempat(Pulau) dari sebuah gunung.
+public class Gunung {
     @SerializedName("nama_gunung")
     private String namaGunung;
 
